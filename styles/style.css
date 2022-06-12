@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header__block {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo {
+  margin-left: 80px;
+  margin-top: 37px;
+}
+
+.header__menu {
+  margin-left: 116px;
+  margin-top: 40px;
+}
+
+.header__menu_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  gap: 0px 40px;
+}
+
+.header__menu_nav a {
+  text-decoration: none;
+  color: #1b0a42;
+  line-height: 24px;
+}
+
+.header__menu_nav a:hover {
+  color: #4f56f1;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 700px;
+}
+
+.login__sign_in {
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 120px;
+  height: 60px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #ffffff;
+}
+
+.login__sign_in:hover {
+  cursor: pointer;
+}
+
+.login__sign_in a {
+  color: #1b0a42;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.login__button {
+  margin-top: 20px;
+}
+
+.login__button .login__button_sign_up {
+  width: 120px;
+  height: 60px;
+  background: #4f56f1;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.login__button .login__button_sign_up:hover {
+  cursor: pointer;
+}
+
+.login__button .login__button_sign_up a {
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.main {
+  width: 100%;
+}
+
+.main__wrapper {
+  width: 100%;
+  max-width: 1192px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__text {
+  margin-top: 210px;
+}
+
+.main__text .main__text_header {
+  width: 100%;
+  max-width: 549px;
+  font-size: 72px;
+  font-family: "Ramaraja", serif;
+}
+
+.main__text_secind {
+  max-width: 538px;
+}
+
+.main__text_secind .main__text_secind_set {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+
+.main__button {
+  margin-top: 50px;
+}
+
+.main__button .main__button_text {
+  width: 152px;
+  height: 64px;
+  background: #4f56f1;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.main__button .main__button_text a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.main__button .main__button_text:hover {
+  cursor: pointer;
+}
+
+.img {
+  margin-top: 112px;
+  position: relative;
+  left: 106px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
